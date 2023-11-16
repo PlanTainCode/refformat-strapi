@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "program_items",
+  "info": {
+    "singularName": "program-item",
+    "pluralName": "program-items",
+    "displayName": "programItem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

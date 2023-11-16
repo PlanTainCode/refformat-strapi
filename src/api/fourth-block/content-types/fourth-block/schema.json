@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "fourth_blocks",
+  "info": {
+    "singularName": "fourth-block",
+    "pluralName": "fourth-blocks",
+    "displayName": "FourthBlock",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "speaker": {
+      "type": "string"
+    },
+    "Li": {
+      "displayName": "Li",
+      "type": "component",
+      "repeatable": true,
+      "component": "li.li"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

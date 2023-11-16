@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacies",
+  "info": {
+    "singularName": "privacy",
+    "pluralName": "privacies",
+    "displayName": "Privacy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Markdown": {
+      "displayName": "Markdown",
+      "type": "component",
+      "repeatable": true,
+      "component": "markdown.markdown"
+    }
+  }
+}

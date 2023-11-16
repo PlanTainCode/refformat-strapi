@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "eight_blocks",
+  "info": {
+    "singularName": "eight-block",
+    "pluralName": "eight-blocks",
+    "displayName": "EightBlock"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "coast": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

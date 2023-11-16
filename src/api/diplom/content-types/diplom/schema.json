@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diploms",
+  "info": {
+    "singularName": "diplom",
+    "pluralName": "diploms",
+    "displayName": "Diplom"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Year": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

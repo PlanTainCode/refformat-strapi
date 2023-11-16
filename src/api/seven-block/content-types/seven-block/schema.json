@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "seven_blocks",
+  "info": {
+    "singularName": "seven-block",
+    "pluralName": "seven-blocks",
+    "displayName": "SevenBlock"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

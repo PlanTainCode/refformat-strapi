@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "afters",
+  "info": {
+    "singularName": "after",
+    "pluralName": "afters",
+    "displayName": "After"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}
